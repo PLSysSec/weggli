@@ -19,7 +19,8 @@ use std::collections::{hash_map::Keys, HashMap};
 use colored::Colorize;
 use query::QueryTree;
 use regex::Regex;
-use tree_sitter::{Language, Parser, Query, Tree};
+use tree_sitter::{Language, Parser, Query};
+pub use tree_sitter::Tree;
 
 #[macro_use]
 extern crate log;
